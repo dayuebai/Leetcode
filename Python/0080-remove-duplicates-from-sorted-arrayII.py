@@ -1,3 +1,8 @@
+# Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length.
+#
+# Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+
 # Time complexity: O(N), N: number of elements in the input array
 # Space complexity: O(1), in place modification
 class Solution:
@@ -6,27 +11,19 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        if nums == []:
-            return 0
-        ref = nums[0]
-        new_size = 1
-        occurrence = 1
         size = len(nums)
+        if size <= 2:
+            return size
 
-        for i in range(1, size):
-            cmp = nums[i]
-            if cmp != ref:
-                nums[new_size] = cmp
-                ref = cmp
-                occurrence = 1
-                new_size += 1
-            elif occurrence < 2:
-                nums[new_size] = cmp
-                occurrence += 1
+        new_size = 2
+        for i in range(2, size):
+            tmp = nums[i]
+            if tmp != nums[new_size - 2]:
+                nums[new_size] = tmp
                 new_size += 1
         return new_size
-
 
 s = Solution()
 arr = [1,1,1,2,2,3]
 assert(s.removeDuplicates(arr) == 5)
+print(arr)
