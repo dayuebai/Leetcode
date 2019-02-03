@@ -1,1 +1,11 @@
-# Leetcode Solutions in C++, Java, and Python
+# Leetcode Solutions
+
+# Progress
+* Array
+
+| Number | Title |
+|--------|-------|
+| 26 | Remove duplicates from sorted array |
+| 27 | Remove elemenr |
+| 80 | Remove duplicates from sorted array II |
+
