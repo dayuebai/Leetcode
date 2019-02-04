@@ -25,4 +25,3 @@ class Solution:
                 tracker[g] -= 1
 
         return str(bull) + "A" + str(cow) + "B"
-                
