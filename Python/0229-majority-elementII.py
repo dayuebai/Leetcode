@@ -4,7 +4,8 @@ import math
 # In addition, this question does not assume there must exists a majority element
 
 # Apply Moore voting
-
+# Time: O(N)
+# Space: O(1)
 class Solution:
     def majorityElement(self, nums: 'List[int]') -> 'List[int]':
         m1, m2, counter1, counter2 = 0, 0, 0, 0
