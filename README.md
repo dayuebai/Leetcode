@@ -13,4 +13,7 @@
 | 41 | Find missing positive |
 | 118 | Pascal's triangle |
 | 134 | Gas station |
+| 119 | Pascal's triangle II |
+| 169 | Majority Element |
+| 229 | Majority Element II |
 
