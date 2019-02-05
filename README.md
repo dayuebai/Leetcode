@@ -10,4 +10,7 @@
 | 80 | Remove duplicates from sorted array II |
 | 189 | Rotate array |
 | 299 | Bulls and cows |
+| 41 | Find missing positive |
+| 118 | Pascal's triangle |
+| 134 | Gas station |
 
