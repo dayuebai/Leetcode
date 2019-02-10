@@ -25,4 +25,6 @@
 | 219 | Contain Duplicate II |
 | 220 | Contain Duplicate II |
 | 55 | Jump Game |
-
+| 45 | Jump Game II |
+| 121 | best-time-to-buy-and-sell-stock |
+| 122 | best-time-to-buy-and-sell-stockII |
