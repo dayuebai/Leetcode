@@ -16,4 +16,13 @@
 | 119 | Pascal's triangle II |
 | 169 | Majority Element |
 | 229 | Majority Element II |
+| 274 | H Index |
+| 275 | H Index II |
+| 243 | Shortest Word Difference |
+| 244 | Shortest Word Difference II |
+| 245 | Shortest Word Difference III |
+| 217 | Contain Duplicate |
+| 219 | Contain Duplicate II |
+| 220 | Contain Duplicate II |
+| 55 | Jump Game |
 
